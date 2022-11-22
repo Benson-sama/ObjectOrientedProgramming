@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="HexViewer.Program">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HexViewer.ConsoleSettings">
+    <Position X="9" Y="1.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ICAAgAAAAAACAAAAAAICAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>ConsoleSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HexViewer.Application">
+    <Position X="2.75" Y="0.5" Width="4.75" />
+    <AssociationLine Name="renderer" Type="HexViewer.Renderer" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.75" Y="3.04" />
+        <Point X="1.625" Y="3.04" />
+        <Point X="1.625" Y="5.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.079" Y="0.404" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAEQAAAEAAgAAAAIAgAAAUSAgIAEAAEgQY=</HashCode>
+      <FileName>Application.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="renderer" />
+      <Field Name="settingsAtStartup" />
+      <Field Name="watcher" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="fileTabs" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="HexViewer.KeyboardWatcher">
+    <Position X="13.75" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AIAIABAAACECAAEAAIAAAAAAAAAABBAAIAAAAAAAAAA=</HashCode>
+      <FileName>KeyboardWatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HexViewer.KeyboardWatcherThreadArguments">
+    <Position X="17.75" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>KeyboardWatcherThreadArguments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HexViewer.OnKeyPressedEventArgs">
+    <Position X="17.75" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OnKeyPressedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HexViewer.FileTab">
+    <Position X="5.25" Y="6" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAABAQIAAAACCAAQAAKAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>FileTab.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="lines" />
+      <Property Name="Lines" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="HexViewer.Renderer">
+    <Position X="0.5" Y="5.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAIAAAAAAAAAAAAQAAAAEAAA=</HashCode>
+      <FileName>Renderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HexViewer.Line">
+    <Position X="10.75" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQCCAAAEAgAAAAAAAQAAAAAAAAAAAEAAAAAAAAAAgAA=</HashCode>
+      <FileName>Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HexViewer.LinesRefreshedEventArgs">
+    <Position X="2" Y="7.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LinesRefreshedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HexViewer.ApplicationSerialisationSurrogate">
+    <Position X="7.75" Y="4.5" Width="7" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationSerialisationSurrogate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

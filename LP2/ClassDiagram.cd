@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="LP2.Program">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LP2.ProcessMonitor">
+    <Position X="4.5" Y="0.5" Width="6.75" />
+    <AssociationLine Name="safeProcesses" Type="LP2.SafeProcess" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.688" Y="5.074" />
+        <Point X="7.688" Y="5.75" />
+        <Point X="3" Y="5.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.225" Y="0.143" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAAABABACAFAAEAAAAAABAAAUAAAAEBIAAAAAAAEEA=</HashCode>
+      <FileName>ProcessMonitor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="safeProcesses" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LP2.Application">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Application.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LP2.SafeProcess">
+    <Position X="0.5" Y="4.5" Width="2.5" />
+    <AssociationLine Name="process" Type="System.Diagnostics.Process" FixedFromPoint="true">
+      <Path>
+        <Point X="2.25" Y="4.5" />
+        <Point X="2.25" Y="3.441" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.094" Y="0.406" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="mainModule" Type="LP2.SafeProcessModule" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="7.25" />
+        <Point X="4.5" Y="7.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.223" Y="0.074" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Process" Type="System.Diagnostics.Process" FixedToPoint="true">
+      <Path>
+        <Point X="1.188" Y="4.5" />
+        <Point X="1.188" Y="3.441" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.137" Y="0.431" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="MainModule" Type="LP2.SafeProcessModule" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="6.75" />
+        <Point X="4.5" Y="6.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.246" Y="0.105" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAACAAAIAABAIAgAAgIIAAIAIAIAAAAAAAAAAgAAgAA=</HashCode>
+      <FileName>SafeProcess.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="process" />
+      <Field Name="mainModule" />
+      <Property Name="Process" />
+      <Property Name="MainModule" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LP2.ProcessMonitorEventArgs">
+    <Position X="11.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessMonitorEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LP2.SafeProcessModule">
+    <Position X="4.5" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>SafeProcessModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Diagnostics.Process" Collapsed="true">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LP2.ProcessMonitorThreadArguments">
+    <Position X="11.5" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ProcessMonitorThreadArguments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

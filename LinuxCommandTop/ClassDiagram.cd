@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="LinuxCommandTop.KeyboardWatcher">
+    <Position X="0.5" Y="4.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AIAIABAAACECAAEAAIAAAAAAAAAABBAAIAAAAAAAAAA=</HashCode>
+      <FileName>KeyboardWatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxCommandTop.KeyboardWatcherThreadArguments">
+    <Position X="4.5" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>KeyboardWatcherThreadArguments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxCommandTop.OnKeyPressedEventArgs">
+    <Position X="4.5" Y="4.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OnKeyPressedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxCommandTop.Program">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxCommandTop.Application">
+    <Position X="2.75" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAACAAQAAgCAAAAQgAI=</HashCode>
+      <FileName>Application.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxCommandTop.Renderer">
+    <Position X="9.75" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Renderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxCommandTop.SafeProcessManager">
+    <Position X="7.75" Y="0.5" Width="3.25" />
+    <AssociationLine Name="safeProcesses" Type="LinuxCommandTop.SafeProcess">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.303" Y="0.108" Height="0.182" Width="1.473" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="SafeProcesses" Type="LinuxCommandTop.SafeProcess">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.313" Y="0.07" Height="0.182" Width="1.415" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAACAAAAAAAAAAAAAQAAAAEAAAAAAAAQAAA=</HashCode>
+      <FileName>SafeProcessManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="safeProcesses" />
+      <Property Name="SafeProcesses" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LinuxCommandTop.SafeProcess">
+    <Position X="13" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAgAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SafeProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

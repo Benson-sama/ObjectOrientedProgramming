@@ -1,0 +1,41 @@
+﻿	
+Benjamin Bogner
+---------------
+ 
+
+Bezeichnung               | Punkte | Kommentar
+--------------------------+--------+-----------
+Methodenbeschreibung         -4      Für die Methoden werden keine Beschreibunen angezeigt.
+Typen                        -2      Es können Methoden mit inkompatiblen Typen zusammengefügt werden.
+Pipeline                     -9      Pipelines können nicht ausgeführt werden.
+
+Summe Abzüge durch Test:    -15
+
+
+Exceptions                    | Dateiname          | Zeile | Kommentar
+------------------------------+--------------------+-------+---------------------------------------------------
+
+
+Bezeichnung                       | Punkte
+----------------------------------+-----
+Zu erreichende Punkte:              25
+
+Summe der Abzüge durch Tests:      -15
+
+Summe der Abzüge durch Exceptions:   0
+
+Summe der Abzüge durch Vergehen:     0
+
+----------------------------------+-----
+
+Gesamtpunkte                         10
+
+
+Sonstiges Feedback:
+-) Die Methoden können in beliebiger (und sinnloser) Reihenfolge verkettet werden.
+-) Class1 ist kein sinnvoller Klassenname.
+-) PipelineBuilder.cs: Diese Klasse sollte nicht mit der Console Klasse arbeiten. Sie sollte keine Darstellungslogik beinhalten.
+-) DescriptionAttribute.cs: Das Attribut wurde zwar erstellt, aber nicht verwendet.
+-) Rectangle.cs-Z.23: Unüberprüfter Setter.
+-) Rectangle.cs-Z.28: Es ist möglicherwiese nicht sinnvoll in der ToString-Methode eines Rectangles nur dessen Länge zurückzugeben.
+   Die ToString-Methode muss generell nicht überschrieben werden.

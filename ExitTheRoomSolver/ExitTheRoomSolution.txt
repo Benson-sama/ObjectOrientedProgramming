@@ -1,0 +1,38 @@
+Hear ye, hear ye! I bring good news,
+start me up and follow the clues!
+And please don't try to inspect me,
+the time will come, I guarantee.
+------------------------------------------------- // Execute Assembly in different domain.
+I see, I see, you have succeeded!
+To start it all, a method is needed.
+Many named methods are reflected around here,
+the right one contains Turing's birth year.
+If you choose right, and sharpen your eyes,
+one parameter contains a prize!
+-------------------------------------------------
+------------------------------------------------- // Search for "1912"
+Valid args I shall be given,
+and my age be century-driven.
+-------------------------------------------------
+------------------------------------------------- // Invoke method "Pslkdf1912flksdfjlksdjlkfl" with (new object(), new ObsoleteAttribute(), 100)
+I am valid, and you are bold,
+you found out that I am a century old!
+My returned brother, his name is just for show,
+maybe you can make him throw?
+-------------------------------------------------
+------------------------------------------------- // Invoke method "Rflksdflk1653fdlsdkflkjsdfj" with valid Func<int>.
+You gave me something hard to do,
+hence I will return it too!
+------------------------------------------------- 
+------------------------------------------------- // Invoke method "Rflksdflk1653fdlsdkflkjsdfj" with
+Ouchie, ouchie, that's not fair,			     Func<int> func = new Func<int>(() => throw new Exception());
+that is no nice thing to share!
+Leave me be, I have nothing to spare,
+except that there's another me somewhere ...
+Read some slides, gain some wisdom,
+and access to the resource kingdom!
+-------------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+☺9N o ,   n o ,   n o ,   I   h a v e   n o   s t a r t ,  Ct h e   f i n a l   m e s s a g e   
+i s   i n   m y   p a r t s !  ??C o n g r a t u l a t i o n s ,   y o u   d i d   i t !   . . .   
+W h a t   d i d   y o u   e x p e c t ,   a   p o s t - c r e d i t s   s c e n e ?
